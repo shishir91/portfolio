@@ -13,10 +13,10 @@ import {
 import { TimelineDemo } from "@/components/TimelineDemo";
 import SkillsSection from "@/components/SkillsSection";
 import { Code2 } from "lucide-react";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { ProjectCard } from "@/components/project-card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Icons } from "@/components/icons";
 import Link from "next/link";
 
@@ -197,16 +197,16 @@ export default function Home() {
       href: "https://github.com/shishir91",
     },
   ];
-  const [isVisible, setIsVisible] = useState(false);
+  // const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    const toggleVisibility = () => {
-      setIsVisible(window.scrollY > 300);
-    };
+  // useEffect(() => {
+  //   const toggleVisibility = () => {
+  //     setIsVisible(window.scrollY > 300);
+  //   };
 
-    window.addEventListener("scroll", toggleVisibility);
-    return () => window.removeEventListener("scroll", toggleVisibility);
-  }, []);
+  //   window.addEventListener("scroll", toggleVisibility);
+  //   return () => window.removeEventListener("scroll", toggleVisibility);
+  // }, []);
   return (
     <>
       {/* <Navbar className="top-1" /> */}
