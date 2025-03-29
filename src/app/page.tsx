@@ -1,27 +1,18 @@
 "use client";
-import Image from "next/image";
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import { Spotlight } from "@/components/ui/spotlight-new";
-import DarkModeToggle from "@/components/DarkModeToggle";
 import { FlipWords } from "@/components/ui/flip-words";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
   IconBook,
-  IconBrandFacebook,
   IconBrandGithub,
-  IconBrandInstagram,
   IconBrandLinkedin,
-  IconBrandX,
   IconBulb,
-  IconExchange,
   IconHome,
-  IconNewSection,
-  IconTerminal2,
 } from "@tabler/icons-react";
-import Navbar from "@/components/Navbar";
 import { TimelineDemo } from "@/components/TimelineDemo";
 import SkillsSection from "@/components/SkillsSection";
-import { Atom, Code, Code2, FileCode, Wind } from "lucide-react";
+import { Code2 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { ProjectCard } from "@/components/project-card";
